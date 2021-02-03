@@ -12,14 +12,19 @@ print("-------------------")
 #asking user for input
 
 user_choice =input("Please choose either 'rock', 'paper', or 'scissors': ")
-
+options = ["rock", "paper", "scissors"]
 #print(x)
 
 print("You chose:",user_choice)
 
-#simulating a computer input
+user_choice.lower()
 
-options = ["rock", "paper", "scissors"]
+if user_choice not in options:
+    print("OOPS, please choose a valid option and try again")
+    exit()
+
+
+#simulating a computer input
 
 computer_choice = random.choice(options)
 
@@ -28,6 +33,9 @@ print(f"The computer chose: {computer_choice}")
 
 
 
+
+    
+#determining the winner
 
 
 
