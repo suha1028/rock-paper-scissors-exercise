@@ -2,11 +2,14 @@
 
 import random
 
-print("Rock, Paper, Scissors, Shoot!")
-
+#customize player name
+import os
+import dotenv
+dotenv.load_dotenv()
+PLAYER_NAME = os.getenv("PLAYER_NAME", default = "Player One")
 
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print(F"Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #asking user for input
