@@ -1,4 +1,9 @@
 # rock-paper-scissors-exercise
+You should already have:
+Anaconda 3.7+
+Python 3.7+
+Pip
+
 Installation:
 To begin, fork this remote repository and then clone/download it o0nto your own desktop.
 Then, please naviagte to command-line/terminal.
@@ -14,5 +19,6 @@ then, in the root directory of your local repository, please create a new file t
 USER_NAME = "Suha Surapaneni"
 
 Running the application:
-type: cd Desktop
-      cd rock-paper-scissors-exercise
+type: python game.py
+
+Enjoy!
